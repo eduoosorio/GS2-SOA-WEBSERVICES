@@ -5,7 +5,7 @@ Plataforma SOA orientada a serviços, desenvolvida para apoiar profissionais e o
 ### Integrantes do grupo
 - Edudardo Osorio Filho - RM 550161
 - Fabio Hideike Kamikihara - RM 550610
-> Atualize os nomes acima antes de publicar o repositório.
+
 
 ### Tecnologias principais
 - Java 17, Spring Boot 3.4, Maven
