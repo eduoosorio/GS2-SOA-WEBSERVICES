@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    url: ${DB_URL:jdbc:mysql://localhost:3306/future_work_hub?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC}
+    username: ${DB_USERNAME:futurework}
+    password: ${DB_PASSWORD:futurework}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+security:
+  jwt:
+    secret: ${JWT_SECRET:super-secret-future-work-key}
+    expiration-minutes: ${JWT_EXPIRATION:180}
+
+logging:
+  level:
+    org.springframework.security: INFO
+    com.futurework.hub: DEBUG
+
